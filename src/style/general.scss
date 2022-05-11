@@ -1,0 +1,12 @@
+@import '~bootstrap/scss/bootstrap';
+
+$fa-font-path: './webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+
+@import './vars.scss';
+
+body {
+    font-family: $main-font;
+    color: $text-color;
+}
